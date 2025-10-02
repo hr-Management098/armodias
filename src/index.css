@@ -1,0 +1,763 @@
+
+/*-------------------- Navbar */
+
+
+.nav-link.getQ{
+    color: white;
+    background-color: #9231e7;
+   border-radius: 10px;
+}
+.nav-item{
+    padding-left: 20px;
+    font-weight:600;
+}
+a.nav-link.active{
+    border-bottom: 3px solid #9231e7;
+    color: #8235c2 !important;
+}
+.navbar-brand h6{
+    color: #9130e6;
+    font-size: 0.9rem;
+}
+
+
+
+
+/*------------- HERO ------------- */
+
+
+
+.hero-container{
+    background-color: #8235c2;
+    width: 100%;
+    /* height: 70vh; */
+    color: white;
+}
+
+div.hero-left{
+}
+div.hero-left .container {
+    padding: 100px;
+    padding-top: 50px;
+
+}
+
+
+.call-email .card{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.card i.bi{
+    font-size: 2rem;
+    padding-left: 15px;
+    color: #9130e6;
+}
+.card div.telephone{
+    padding-top: 3px;
+    width: 60px;
+    height: 60px;
+    background-color: #facb14;
+    border-radius: 10px;
+}
+
+.card.mb-3.w-50 div.row.g-0{
+    align-items: center;
+}
+
+.hero-left h5{
+    background-color: #facb14;
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 1rem;
+    color: #8235c2;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-left h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.hero-left span{
+    color: #facb14;
+}
+
+div.ceCard{
+    width: 200px;
+}
+
+
+
+
+
+.hero-right{
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.rDiv{
+    background-color: #9f53dd;
+    /* width: 100%; */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px ;
+
+}
+.rDiv h2{
+    color: #facb18;
+}
+.rDiv i{
+    font-size: 3rem;
+    color: #facb14;
+}
+
+
+
+
+/* -----------------HOME - OUR Expert Services------------------------ */
+
+
+.row .col .card > i.bi::before{
+    padding: 17px;
+    border-radius: 15px;
+}
+/* .bi.bi-building::before,
+.bi.bi-calculator-fill::before,
+.bi.bi-file-earmark-text::before,
+.bi.bi-shield-check::before,
+.bi.bi-window-desktop::before,
+.bi.bi-globe::before,
+.bi.bi-people::before{
+    padding: 17px;
+    border-radius: 15px;
+} */
+
+section.home_services{
+    background-color:#f8fbfa ;
+}
+
+
+.bi.bi-building::before{
+    background-color: #f2e8ff;
+}
+
+.bi.bi-calculator-fill::before{
+    color: #bd8c13;
+    background-color: #fcf9c3;
+    
+}
+
+.bi.bi-file-earmark-text::before{
+    color: #4bbd72;
+    background-color: #dbfce7;
+    
+}
+
+.bi.bi-shield-check::before{
+    color: #5e87dd;
+    background-color: #dbe9fd;
+   
+}
+
+.bi.bi-window-desktop::before{
+     color: #c62f35;
+    background-color: #fbe2e1;
+    
+}
+
+.bi.bi-globe::before{
+    color: #4d48c8;
+    background-color: #e2e9fd;
+}
+
+
+
+.card-body .lrnM{
+    color:#8235c2;
+    font-weight: 500;
+    text-decoration: none;
+}
+.card.cb{
+    border: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.home_services .container.text-center a{
+    background-color: #8235c2 ;
+    border-color: #8235c2;
+    border-radius: 10px;
+}
+.home_services .container.text-center a:hover{
+    background-color: #601e96;
+    
+}
+.home_services .container.text-center a:active{
+    background-color: #3b0c61;
+}
+
+
+
+
+
+/* --------------------------------- */
+
+
+
+section.choose_armodias{
+    margin-top: 30px;
+}
+
+.wca_left{
+    padding: 20px;
+    width: 50%;
+}
+
+
+
+.wca_right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.wca_right .container{
+    
+    background-color: #f5edf8;
+    border-radius: 25px;
+}
+
+.wca_right i.bi-people,.wca_right .bi-shield-shaded{
+    font-size: 2.2rem;
+    padding: 5px 10px;
+}
+.wca_right i.bi-people{
+    color: #8235c2;
+    
+}
+.wca_right .bi-shield-shaded{
+    color: #30a45b;
+    
+}
+
+.wca_right .container > div{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.wca_right .container h6{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+
+
+/* ------------------------- */
+
+
+
+section.experience{
+    background-color: #691fa4;
+}
+
+.experience button{
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.experience .btn-sfc{
+    background-color: #eab207 !important;
+    color: #783d41;
+    border-color: #eab207;
+}
+.experience .btn-sfc:hover{
+    background-color: #daa300 !important;
+    color: #783d41;
+    border-color: #eab207;
+}
+.experience .btn-sfc:active{
+    background-color: #be8f00 !important;
+    color: #783d41 !important;
+    border-color: #eab207;
+    
+}
+
+/*------------ FOOTER ----------- */
+
+
+section.footer footer{
+    background-color: #101725 !important;
+    color: white !important;
+}
+.ft_head h6{
+    color: #eab207;
+}
+.ft_head a{
+    text-decoration: none;
+}
+.ft_head i{
+    color: #ba26d4;
+}
+section.footer img{
+    filter: invert(100%);
+}
+
+/* ------------SERVICES TAB */
+
+/* --------------- Our Expert Services----------------- */
+
+
+section.our_expert_services{
+    background-color: #691fa4;
+}
+
+.our_expert_services h1{
+    font-size: 4rem;
+}
+
+
+
+
+/* ----------- Service Page - Services ------------------ */
+
+
+.service_page .row .col:nth-child(1) .card{
+    border-top: 10px solid #8124d3;
+    
+}
+.service_page .row .col:nth-child(2) .card{
+    border-top: 10px solid #e6ae08;
+    
+}
+.service_page .row .col:nth-child(3) .card{
+    border-top: 10px solid #15843f;
+    
+}
+.service_page .row .col:nth-child(4) .card{
+    border-top: 10px solid #1c4fd8;
+    
+}
+.service_page .row .col:nth-child(5) .card{
+    border-top: 10px solid #4439ce;
+    
+}
+.service_page .row .col:nth-child(6) .card{
+    border-top: 10px solid #d52323;
+    
+}
+
+.service_page .row .col:nth-child(7) .card{
+    border-top: 10px solid #c61c65;
+    
+}
+.service_page .row .col:nth-child(8) .card{
+    border-top: 10px solid #d84b0c;
+    
+}
+.service_page .row .col:nth-child(9) .card{
+    border-top: 10px solid #088baa;
+    
+}
+.service_page .row .col:nth-child(10) .card{
+    border-top: 10px solid #6e2adc;
+    
+}
+
+.service_page ul{
+    list-style: none;
+    padding-left: 0;
+}
+.service_page ul li i{
+    font-size: 1.2rem !important;
+    padding-left: 0 !important;
+    padding-right: 5px;
+}
+
+.service_page .service-cards .card>i::before{
+    color: white;
+}
+
+.service_page .bi.bi-building::before,
+.service_page .bi.bi-building + div a{
+    background-color: #8124d3;
+    border-color: #8235c2;
+}
+
+.service_page .bi.bi-calculator-fill::before,
+.service_page .bi.bi-calculator-fill + div a{
+    background-color: #e6ae08 ;
+    border-color: #bd8c13;
+    
+}
+
+.service_page .bi.bi-file-earmark-text::before,
+.service_page .bi.bi-file-earmark-text + div a{
+    background-color: #15843f;
+    border-color: #15843f;
+    
+}
+
+.service_page .bi.bi-shield-check::before,
+.service_page .bi.bi-shield-check + div a{
+    border-color: #1c4fd8;
+    background-color: #1c4fd8;
+   
+}
+
+.service_page .bi.bi-people::before,
+.service_page .bi.bi-people + div a{
+     border-color: #4439ce;
+    background-color: #4439ce; 
+}
+.service_page .bi.bi-window-desktop::before,
+.service_page .bi.bi-window-desktop + div a{
+     border-color: #d52323;
+    background-color: #d52323; 
+}
+
+.service_page .bi.bi-suitcase-lg::before,
+.service_page .bi.bi-suitcase-lg + div a{
+    border-color: #c61c65;
+    background-color: #c61c65;
+}
+.service_page .bi.bi-graph-up-arrow::before,
+.service_page .bi.bi-graph-up-arrow + div a{
+    border-color: #d84b0c;
+    background-color: #d84b0c;
+}
+.service_page .bi.bi-bank2::before,
+.service_page .bi.bi-bank2 + div a{
+    border-color: #088baa;
+    background-color: #088baa;
+}
+.service_page .bi.bi-globe::before,
+.service_page .bi.bi-globe + div a{
+    border-color: #6e2adc;
+    background-color: #6e2adc;
+}
+
+
+
+/* ---------- ABout Page ------------- */
+
+.hero-right.about_page{
+
+     padding: 50px 30px;
+    display: flex;
+    align-items: center;
+
+}
+.hero-right.about_page .rDiv{
+
+     display: block;
+    border-radius: 10px ;
+    
+}
+
+
+
+
+
+/* --------- ABOUT PAGE - Our Story---------- */
+
+
+
+.choose_armodias.about_page{
+    background-color: #f8fbfa;
+    margin-top: 0;
+}
+
+.about_page .clr_txt{
+    background-color: #f3e8ff;
+    border-left: 5px solid #9432ea;
+    border-radius: 10px;
+    color:#7900e4;
+    font-weight: 500;
+}
+
+.about_page .wca_right .container{
+    background-color: white;
+    box-shadow: 3px 6px 20px 0px rgb(0,0,0, 0.2);
+    border-radius: 10px
+}
+
+.about_page ul{
+    list-style: none;
+    padding-left: 0;
+}
+.about_page ul li i{
+    font-size: 1.2rem !important;
+    padding-left: 0 !important;
+    padding-right: 5px;
+}
+
+
+
+/* Our Values */
+
+
+.our_values .row .col .card i{
+    padding-left: 0;
+    color: white;
+}
+
+.our_values .row .col .card i::before{
+    background-color: #8427d6;
+}
+
+
+
+/* ------- What makes Us Different? ------ */
+
+
+.experience.about_page .col .card {
+background-color: #7636ab;
+box-shadow: none;
+color: white;
+}
+.experience.about_page .col .card i{
+    color: #f9cd22;
+    font-size: 3rem;
+}
+
+
+/* Get In Touch */
+
+.experience.about_page_getIT{
+    background-color: #f8fbfa;
+  
+}
+
+.experience.about_page_getIT .row .col{
+    width: 24%;
+}
+.experience.about_page_getIT .row .card{
+    background-color: white;
+    
+}
+
+.experience.about_page_getIT .row .card i {
+    color: #9332ed;
+    font-size: 3rem;
+}
+
+.experience.about_page_getIT a{
+    background-color: #9332ed;
+    border-color: #9332ed;
+}
+.experience.about_page_getIT a:hover{
+    background-color: #820fee;
+}
+.experience.about_page_getIT a:active{
+    background-color: #5800aa;
+}
+
+
+/* --------------- CONTACT US PAGE -------------- */
+
+
+.contact_hero {
+    background-color: #6d20ab;
+    color: white;
+}
+.contact_hero h1{
+    font-size: 3.5rem;
+}
+
+
+/* contact form */
+
+
+section.contact_form{
+    position: relative;
+    height: 125vh;
+    top: -90px;
+    background-color: transparent;
+}
+section.contact_form .pos_Ab{
+    position: absolute;
+}
+
+
+.contact_form .col-md-8>.container{
+    background-color: white;
+    
+    box-shadow: 0px 6px 20px 0px rgb(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    
+}
+
+.col-md-8 .container h3 i{
+    color: #5800aa;
+}
+
+.contact_form .col-md-8 Button{
+    background-color: #5800aa;
+    border-radius: 12px;
+}
+.contact_form .col-md-8 Button:active{
+    background-color: #440183;
+    border-radius: 12px;
+}
+.contact_form .col-md-8 .container .container{
+    padding: 0;
+}
+
+
+
+
+.contact_form .col-md-4{
+    border-radius: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 110vh;
+    background-color: transparent
+    
+}
+
+.contact_form .col-md-4 .container{
+    box-shadow: 1px 5px 20px rgb(0, 0, 0, 0.3);
+    padding-left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+.contact_form ul{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0;
+}
+.contact_form ul li{
+    padding-left: 40px;
+    color: grey;
+}
+.contact_form ul li:has(i) {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    color: black;
+}
+.contact_form ul li i::before{
+    color: #8528d9;
+}
+
+.contact_form .git {
+    color: white;
+    background-color: #8528d9;
+    padding: 20px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contact_form .git h4{
+    margin-bottom: 0;
+}
+
+.contact_form label{
+    font-weight: 600;
+}
+
+.call_email{
+    border-radius: 10px;
+}
+.call_email Button{
+    border-radius: 10px;
+}
+.call_email Button:nth-child(1){
+    background-color: #16a249 ;
+    border-color:#16a249 ;
+}
+.call_email Button:nth-child(1):hover{
+    background-color: #009135 ;
+}
+.call_email Button:nth-child(1):active{
+    background-color: #005f23 ;
+}
+.call_email Button:nth-child(2){
+    background-color: transparent ;
+    color: #8225d3;
+    border: 2px solid #8225d3;
+}
+.call_email Button:nth-child(2):hover{
+     background-color: #8225d3 ;
+     color: white;
+}
+.call_email Button:nth-child(2):active{
+    background-color: #510097 ;
+}
+
+.prr{
+    background-color:#f8fbfa ;
+}
+
+.rGrant{
+    color: #55257c;
+    background-color: #f3e8ff;
+    border-radius: 15px;
+    padding: 5px 30px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+   .hero-container.d-flex{
+    display: block !important;
+   }
+   .hero-left.w-50{
+    width: 100% !important;
+   }
+   .hero-left.w-50 .container{
+    padding: 50px 20px;
+   }
+
+   .hero-left h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+   }
+
+   .hero-left h5{
+    padding: 7px 10px;
+   }
+
+    .hero-left p{
+        margin-top: 40px;
+        margin-bottom: 50px !important;
+    }
+
+   .hero-right.w-50{
+     width: 100% !important;
+     padding: 10px 20px;
+}
+
+.call-email .card .row {
+        justify-content: center;
+}
+.call-email .card .row .card-body{
+    text-align: center;
+    padding-left: 0px;
+}
+
+.wca_left,.wca_right{
+    width: 100% !important;
+}
+
+section.contact_form{
+    height: 200vh;
+    left: -50px;
+}
+
+
+}
