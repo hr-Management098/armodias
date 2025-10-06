@@ -24,7 +24,7 @@ function Navbar() {
       <ul className="navbar-nav ms-auto pe-5 me-5 mb-2 mb-lg-0">
 
         <li className="nav-item">
-          <NavLink className="nav-link"  to="/">Home</NavLink>
+          <NavLink className="nav-link"  to="/armodias">Home</NavLink>
         </li>
 
         <li className="nav-item">

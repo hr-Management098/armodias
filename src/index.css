@@ -30,23 +30,24 @@ a.nav-link.active{
 .hero-container{
     background-color: #8235c2;
     width: 100%;
-    /* height: 70vh; */
     color: white;
 }
 
-div.hero-left{
-}
 div.hero-left .container {
-    padding: 100px;
+    padding: 65px;
     padding-top: 50px;
-
 }
-
 
 .call-email .card{
     background-color: transparent;
     color: white;
     border: none;
+}
+.call-email .card:nth-child(1){
+    flex: 1.5;
+}
+.call-email .card:nth-child(2){
+    flex: 2;
 }
 
 .card i.bi{
@@ -86,7 +87,7 @@ div.hero-left .container {
 }
 
 div.ceCard{
-    width: 200px;
+    width: 280px;
 }
 
 
@@ -748,6 +749,10 @@ section.contact_form .pos_Ab{
 .call-email .card .row .card-body{
     text-align: center;
     padding-left: 0px;
+}
+
+div.ceCard{
+    width: auto;
 }
 
 .wca_left,.wca_right{

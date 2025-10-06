@@ -21,8 +21,8 @@ function Home() {
 
               <p className="fs-5 mb-4">Expert Tax Sound Finance - we priortize YOU. We respond quickly, professionally, and get th ejob done right the first time.</p>
               <div className="mb-5">
-                <Button className="me-3 pe-3 ps-3" variant="warning">Get Free Consultation</Button>
-                <Button className="pe-4 ps-4" variant="light">Contact us </Button>
+                <Button className="me-3 pe-3 ps-3" href="/contact" variant="warning">Get Free Consultation</Button>
+                <Button className="pe-4 ps-4" href="/contact" variant="light">Contact us </Button>
               </div>
 
               <div className="d-flex call-email ">
@@ -34,8 +34,8 @@ function Home() {
                     </div>
                     <div className="col-md-8">
                       <div className="card-body ceCard ">
-                        <h6 className="card-title">Call Now</h6>
-                        <h6 className="">07466 390181</h6>
+                        <h6 className="card-title fw-bold">Call Now</h6>
+                        <h6 className="fw-light">07466 390181</h6>
                       </div>
                     </div>
                   </div>
@@ -49,8 +49,8 @@ function Home() {
                     </div>
                     <div className="col-md-8">
                       <div className="card-body ceCard">
-                        <h6 className="card-title">Email Us</h6>
-                        <h6 className="">info@armodias.co.uk</h6>
+                        <h6 className="card-title fw-bold">Email Us</h6>
+                        <h6 className="fw-light">Info@armodiasaccounting.co.uk</h6>
                       </div>
                     </div>
                   </div>
@@ -272,8 +272,8 @@ function Home() {
             <p className="my-4">Join the growing number of businesses who trust us with their financial <br /> future. Get your free consultation today.</p>
           </div>
           <div className="d-flex justify-content-center">
-            <Button className="btn-sfc mx-2 px-4 py-2">Schedule Free Consultation</Button>
-            <Button className="mx-2 px-4 py-2" variant="light">Call: 07466 390181</Button>
+            <Button className="btn-sfc mx-2 px-4 py-2" href="/contact">Schedule Free Consultation</Button>
+            <Button className="mx-2 px-4 py-2" variant="light" href="/contact">Call: 07466 390181</Button>
           </div>
 
         </div>
